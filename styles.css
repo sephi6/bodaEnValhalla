@@ -2,8 +2,8 @@ body {
     font-family: 'Norse', serif;
     margin: 0;
     padding: 0;
-    background-color: #2E4D34; /* Verde Bosque */
-    color: #F5F5F5;
+    background-color: #1F2D16; /* Dark green for the background */
+    color: #F5F5F5; /* Light color for text contrast */
     line-height: 1.6;
     font-size: larger;
 }
@@ -18,7 +18,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #8FA482; /* Verde Helecho */
+    color: #BE6731; /* Warm earthy tone */
 }
 
 #hero h1 {
@@ -33,10 +33,10 @@ body {
 
 /* Countdown Section */
 #countdown {
-    background-color: #4A7C59; /* Verde Musgo */
+    background-color: #76704C; /* Muted olive green */
     padding: 2em 0;
     text-align: center;
-    color: #8FA482; /* Verde Helecho */
+    color: #BE6731; /* Warm earthy tone for text */
 }
 
 #countdown-timer {
@@ -58,19 +58,19 @@ body {
 section {
     padding: 2em 1em;
     margin: 0 1em;
-    background-color: #5A3D2B; /* Marrón Tierra */
+    background-color: #545E46; /* Dark green-grey for sections */
     border-radius: 5px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-    border: 2px solid #8FA482; /* Verde Helecho */
+    border: 2px solid #BE6731; /* Warm earthy tone */
     margin-top: -1em;
 }
 
 h2 {
     font-size: 2.5em;
     margin-bottom: 0.5em;
-    color: #8FA482; /* Verde Helecho */
+    color: #BE6731; /* Warm earthy tone for headings */
     text-transform: uppercase;
-    border-bottom: 3px solid #8FA482;
+    border-bottom: 3px solid #BE6731;
     padding-bottom: 0.5em;
 }
 
@@ -83,23 +83,23 @@ form label, form input, form select, form button {
 
 form input, form select {
     padding: 0.75em;
-    border: 2px solid #7B5A3F; /* Marrón Madera */
-    background-color: #4A7C59; /* Verde Musgo */
+    border: 2px solid #B55219; /* Rich brownish-orange */
+    background-color: #76704C; /* Muted olive green */
     color: #F5F5F5;
     border-radius: 5px;
 }
 
 form button {
     padding: 0.75em;
-    background-color: #7B5A3F; /* Marrón Madera */
-    color: #8FA482; /* Verde Helecho */
+    background-color: #B55219; /* Rich brownish-orange */
+    color: #F5F5F5;
     border: none;
     cursor: pointer;
     text-transform: uppercase;
 }
 
 form button:hover {
-    background-color: #8B6C51; /* Marrón Rústico */
+    background-color: #8D2A00; /* Darker brown for hover effect */
 }
 
 /* Gallery Grid */
@@ -113,17 +113,17 @@ form button:hover {
 .gallery-grid img {
     width: 100%;
     border-radius: 5px;
-    border: 2px solid #7B5A3F; /* Marrón Madera */
+    border: 2px solid #B55219; /* Rich brownish-orange */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /* Footer Styling */
 footer {
-    background-color: #4A7C59; /* Verde Musgo */
+    background-color: #76704C; /* Muted olive green */
     padding: 2em 0;
     text-align: center;
-    color: #8FA482; /* Verde Helecho */
-    border-top: 5px solid #8FA482; /* Verde Helecho */
+    color: #BE6731; /* Warm earthy tone */
+    border-top: 5px solid #BE6731; /* Warm earthy tone */
 }
 
 /* Responsive Design */
