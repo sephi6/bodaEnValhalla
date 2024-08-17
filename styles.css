@@ -2,8 +2,8 @@ body {
     font-family: 'Cinzel', serif;
     margin: 0;
     padding: 0;
-    background-color: #2c2c2c;
-    color: #f5f5f5;
+    background-color: #2E4D34; /* Verde Bosque */
+    color: #F5F5F5;
     line-height: 1.6;
 }
 
@@ -17,7 +17,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #d4af37; /* Gold color */
+    color: #8FA482; /* Verde Helecho */
 }
 
 #hero h1 {
@@ -32,10 +32,10 @@ body {
 
 /* Countdown Section */
 #countdown {
-    background-color: #4e3b31;
+    background-color: #4A7C59; /* Verde Musgo */
     padding: 2em 0;
     text-align: center;
-    color: #d4af37;
+    color: #8FA482; /* Verde Helecho */
 }
 
 #countdown-timer {
@@ -57,19 +57,19 @@ body {
 section {
     padding: 2em 1em;
     margin: 0 1em;
-    background-color: #3b3b3b;
+    background-color: #5A3D2B; /* Marrón Tierra */
     border-radius: 5px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-    border: 2px solid #d4af37;
+    border: 2px solid #8FA482; /* Verde Helecho */
     margin-top: -1em;
 }
 
 h2 {
     font-size: 2.5em;
     margin-bottom: 0.5em;
-    color: #d4af37;
+    color: #8FA482; /* Verde Helecho */
     text-transform: uppercase;
-    border-bottom: 3px solid #d4af37;
+    border-bottom: 3px solid #8FA482;
     padding-bottom: 0.5em;
 }
 
@@ -82,23 +82,23 @@ form label, form input, form select, form button {
 
 form input, form select {
     padding: 0.75em;
-    border: 2px solid #4e3b31;
-    background-color: #2c2c2c;
-    color: #f5f5f5;
+    border: 2px solid #7B5A3F; /* Marrón Madera */
+    background-color: #4A7C59; /* Verde Musgo */
+    color: #F5F5F5;
     border-radius: 5px;
 }
 
 form button {
     padding: 0.75em;
-    background-color: #4e3b31;
-    color: #d4af37;
+    background-color: #7B5A3F; /* Marrón Madera */
+    color: #8FA482; /* Verde Helecho */
     border: none;
     cursor: pointer;
     text-transform: uppercase;
 }
 
 form button:hover {
-    background-color: #3b2f28;
+    background-color: #8B6C51; /* Marrón Rústico */
 }
 
 /* Gallery Grid */
@@ -112,17 +112,17 @@ form button:hover {
 .gallery-grid img {
     width: 100%;
     border-radius: 5px;
-    border: 2px solid #4e3b31;
+    border: 2px solid #7B5A3F; /* Marrón Madera */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /* Footer Styling */
 footer {
-    background-color: #4e3b31;
+    background-color: #4A7C59; /* Verde Musgo */
     padding: 2em 0;
     text-align: center;
-    color: #d4af37;
-    border-top: 5px solid #d4af37;
+    color: #8FA482; /* Verde Helecho */
+    border-top: 5px solid #8FA482; /* Verde Helecho */
 }
 
 /* Responsive Design */
