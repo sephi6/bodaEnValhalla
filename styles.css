@@ -1,60 +1,71 @@
 body {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Cinzel', serif; /* A font with an ancient, Nordic feel */
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
-    color: #333;
+    background-color: #2c2c2c; /* Dark grey background for a rugged feel */
+    color: #f5f5f5; /* Light color for text contrast */
     line-height: 1.6;
 }
 
 header {
-    background-color: #d3a399;
-    color: white;
+    background-color: #4e3b31; /* Dark brown, reminiscent of wood or leather */
+    color: #d4af37; /* Gold color, symbolizing wealth and heritage */
     text-align: center;
     padding: 2em 0;
+    border-bottom: 5px solid #d4af37; /* Gold border for a rich, Viking feel */
 }
 
 h1 {
     font-size: 2.5em;
     margin: 0.5em 0;
+    text-transform: uppercase; /* Uppercase text for a bold, authoritative look */
+    letter-spacing: 3px;
 }
 
 p {
     margin: 0.5em 0;
+    font-family: 'Glegoo', serif; /* A more rugged serif font */
 }
 
 section {
     padding: 1em;
     margin: 1em 0;
-    background-color: white;
+    background-color: #3b3b3b; /* Darker grey background for sections */
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Heavier shadow for depth */
+    border: 2px solid #d4af37; /* Gold border for Viking elegance */
 }
 
 h2 {
     margin-top: 0;
     font-size: 2em;
-    color: #d3a399;
+    color: #d4af37; /* Consistent gold color */
+    border-bottom: 3px solid #d4af37;
+    padding-bottom: 0.5em;
+    text-transform: uppercase;
 }
 
 input, select, button {
     width: 100%;
-    padding: 0.5em;
+    padding: 0.75em; /* Slightly larger padding for a more solid feel */
     margin-top: 0.5em;
     margin-bottom: 1em;
-    border: 1px solid #ccc;
+    border: 2px solid #4e3b31; /* Dark brown borders for form elements */
     border-radius: 5px;
+    background-color: #2c2c2c; /* Dark grey background for inputs */
+    color: #f5f5f5; /* Light text color */
 }
 
 button {
-    background-color: #d3a399;
-    color: white;
+    background-color: #4e3b31; /* Dark brown button background */
+    color: #d4af37; /* Gold text on buttons */
     border: none;
     cursor: pointer;
+    text-transform: uppercase;
 }
 
 button:hover {
-    background-color: #b58370;
+    background-color: #3b2f28; /* Slightly darker brown for hover effect */
 }
 
 .gallery-grid {
@@ -66,11 +77,33 @@ button:hover {
 .gallery-grid img {
     width: 100%;
     border-radius: 5px;
+    border: 2px solid #4e3b31; /* Dark brown border for images */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 footer {
     text-align: center;
     padding: 2em 0;
-    background-color: #333;
-    color: white;
+    background-color: #4e3b31;
+    color: #d4af37;
+    border-top: 5px solid #d4af37; /* Gold border at the top of the footer */
+}
+
+/* Additional styling for mobile optimization */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    body {
+        padding: 0 1em;
+    }
+
+    section {
+        margin: 1em 0;
+    }
 }
