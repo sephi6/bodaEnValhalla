@@ -1,109 +1,145 @@
 body {
-    font-family: 'Cinzel', serif; /* A font with an ancient, Nordic feel */
+    font-family: 'Cinzel', serif;
     margin: 0;
     padding: 0;
-    background-color: #2c2c2c; /* Dark grey background for a rugged feel */
-    color: #f5f5f5; /* Light color for text contrast */
+    background-color: #2c2c2c;
+    color: #f5f5f5;
     line-height: 1.6;
 }
 
-header {
-    background-color: #4e3b31; /* Dark brown, reminiscent of wood or leather */
-    color: #d4af37; /* Gold color, symbolizing wealth and heritage */
+/* Hero Section */
+#hero {
+    background-image: url('viking-bg.jpg'); /* Replace with your Viking-themed background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    padding: 2em 0;
-    border-bottom: 5px solid #d4af37; /* Gold border for a rich, Viking feel */
+    color: #d4af37; /* Gold color */
 }
 
-h1 {
-    font-size: 2.5em;
-    margin: 0.5em 0;
-    text-transform: uppercase; /* Uppercase text for a bold, authoritative look */
-    letter-spacing: 3px;
-}
-
-p {
-    margin: 0.5em 0;
-    font-family: 'Glegoo', serif; /* A more rugged serif font */
-}
-
-section {
-    padding: 1em;
-    margin: 1em 0;
-    background-color: #3b3b3b; /* Darker grey background for sections */
-    border-radius: 5px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Heavier shadow for depth */
-    border: 2px solid #d4af37; /* Gold border for Viking elegance */
-}
-
-h2 {
-    margin-top: 0;
-    font-size: 2em;
-    color: #d4af37; /* Consistent gold color */
-    border-bottom: 3px solid #d4af37;
-    padding-bottom: 0.5em;
+#hero h1 {
+    font-size: 4em;
+    margin-bottom: 0.5em;
     text-transform: uppercase;
 }
 
-input, select, button {
-    width: 100%;
-    padding: 0.75em; /* Slightly larger padding for a more solid feel */
-    margin-top: 0.5em;
-    margin-bottom: 1em;
-    border: 2px solid #4e3b31; /* Dark brown borders for form elements */
-    border-radius: 5px;
-    background-color: #2c2c2c; /* Dark grey background for inputs */
-    color: #f5f5f5; /* Light text color */
+#hero p {
+    font-size: 1.5em;
 }
 
-button {
-    background-color: #4e3b31; /* Dark brown button background */
-    color: #d4af37; /* Gold text on buttons */
+/* Countdown Section */
+#countdown {
+    background-color: #4e3b31;
+    padding: 2em 0;
+    text-align: center;
+    color: #d4af37;
+}
+
+#countdown-timer {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+#countdown-timer div {
+    font-size: 2em;
+}
+
+#countdown-timer p {
+    font-size: 1em;
+    margin: 0;
+}
+
+/* General Section Styling */
+section {
+    padding: 2em 1em;
+    margin: 0 1em;
+    background-color: #3b3b3b;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    border: 2px solid #d4af37;
+    margin-top: -1em;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color: #d4af37;
+    text-transform: uppercase;
+    border-bottom: 3px solid #d4af37;
+    padding-bottom: 0.5em;
+}
+
+/* Form Styling */
+form label, form input, form select, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+form input, form select {
+    padding: 0.75em;
+    border: 2px solid #4e3b31;
+    background-color: #2c2c2c;
+    color: #f5f5f5;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 0.75em;
+    background-color: #4e3b31;
+    color: #d4af37;
     border: none;
     cursor: pointer;
     text-transform: uppercase;
 }
 
-button:hover {
-    background-color: #3b2f28; /* Slightly darker brown for hover effect */
+form button:hover {
+    background-color: #3b2f28;
 }
 
+/* Gallery Grid */
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     gap: 10px;
+    margin-top: 1em;
 }
 
 .gallery-grid img {
     width: 100%;
     border-radius: 5px;
-    border: 2px solid #4e3b31; /* Dark brown border for images */
+    border: 2px solid #4e3b31;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+/* Footer Styling */
 footer {
-    text-align: center;
-    padding: 2em 0;
     background-color: #4e3b31;
+    padding: 2em 0;
+    text-align: center;
     color: #d4af37;
-    border-top: 5px solid #d4af37; /* Gold border at the top of the footer */
+    border-top: 5px solid #d4af37;
 }
 
-/* Additional styling for mobile optimization */
+/* Responsive Design */
 @media (max-width: 600px) {
-    h1 {
-        font-size: 2em;
+    #hero h1 {
+        font-size: 2.5em;
+    }
+
+    #hero p {
+        font-size: 1.2em;
     }
 
     h2 {
-        font-size: 1.5em;
-    }
-
-    body {
-        padding: 0 1em;
+        font-size: 2em;
     }
 
     section {
-        margin: 1em 0;
+        padding: 1.5em 1em;
     }
 }
